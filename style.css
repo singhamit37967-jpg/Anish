@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 340px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: fadeIn 0.9s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  color: #222;
+}
+
+p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 10px 22px;
+  background: #ff6f91;
+  color: white;
+  text-decoration: none;
+  border-radius: 22px;
+  font-size: 14px;
+}
